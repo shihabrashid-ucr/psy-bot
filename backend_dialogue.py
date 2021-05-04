@@ -5,7 +5,7 @@ import pickle
 
 class BackendDialogue():
     def __init__(self):
-        self.model = SentenceTransformer('roberta-model')
+        self.model = SentenceTransformer('stsb-roberta-large') # roberta-model
         self.COSINE_THRESHOLD = 0.5
         self.chitchat_bot = ChatBot("PanduBot")
         trainer = ChatterBotCorpusTrainer(self.chitchat_bot)

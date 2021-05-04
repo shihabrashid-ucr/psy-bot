@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer
 
 class Training():
     def __init__(self):
-        self.model = SentenceTransformer('roberta-model')
+        self.model = SentenceTransformer('stsb-roberta-large') # roberta-model
     
     def clean_text(self, text):
         #text = text.capitalize()
