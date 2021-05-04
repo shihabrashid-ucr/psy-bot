@@ -1,3 +1,7 @@
+'''
+Backend dialogue manager. Imports saved model. Computes similarity. Fetches topmost relevant answer.
+Author: Shihab
+'''
 from sentence_transformers import SentenceTransformer, util
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer

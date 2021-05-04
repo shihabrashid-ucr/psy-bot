@@ -1,3 +1,8 @@
+'''
+Code for training PsyBot.
+Author: Shihab
+'''
+
 import csv
 import pickle
 import string
