@@ -14,6 +14,7 @@ pip install -r requirements.txt
 python3 training.py
 ```
 If you do not want to train, you can use my saved model which is under "saved-model". No steps are required if no training is required.
+
 3. Run the frontend using:
 ```shell
 python3 frontend.py
